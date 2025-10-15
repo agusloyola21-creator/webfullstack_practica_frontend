@@ -1,7 +1,7 @@
 import { createAsyncThunk, isRejectedWithValue } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const ENDPOINT_blog = `${process.env.REACT_APP_API_URL}/api/blog`
+const ENDPOINT_blog = `${process.env.REACT_APP_API_URL}api/blog`
 
 
 // read blogs
