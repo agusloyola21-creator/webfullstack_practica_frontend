@@ -24,7 +24,7 @@ const ListBlog = ({ blogs, count, slug = "" }) => {
             <div className="md:w-1/2 lg:w-2/3 mt-8 md:mt-0">
               {/* <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Responsive Design" className="w-full h-full object-cover"></img> */}
               {/* <img src={`${process.env.REACT_APP_API_URL}${blog.thumbnail}`} alt="Responsive Design" className="w-full h-full object-cover"></img> */}
-              <img src={`https://gregarious-peony-84c0ff.netlify.app/media/${blog.thumbnail}`} alt="Responsive Design" className="w-full h-full object-cover"></img>
+              <img src={`https://gregarious-peony-84c0ff.netlify.app/${blog.thumbnail}`} alt="Responsive Design" className="w-full h-full object-cover"></img>
             </div>
           </div>
         </NavLink>
