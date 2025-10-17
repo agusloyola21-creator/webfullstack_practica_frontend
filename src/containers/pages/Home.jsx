@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet-async"
 
 function Home() {
     return (
-        <div className="">
+        <div className="py-2 px-2 lg:mx-14  xs:mx-0">
             <Helmet>
 
 
