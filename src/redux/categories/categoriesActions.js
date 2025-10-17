@@ -1,7 +1,7 @@
 import { createAsyncThunk, isRejectedWithValue } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const ENDPOINT_category_list = `${process.env.REACT_APP_API_URL}api/category/list`;
+const ENDPOINT_category_list = `${process.env.REACT_APP_API_URL}/api/category/list`;
 
 // read categories
 export const readCategories = createAsyncThunk("readCateories", async (data)=>{
