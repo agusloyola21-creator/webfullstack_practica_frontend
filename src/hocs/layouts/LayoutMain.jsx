@@ -9,7 +9,10 @@ const Layout = () => (
     <React.Fragment>
         
         <Navbar/>
-        <Outlet/>
+        <main className="py-2 px-2 lg:mx-14  xs:mx-0">
+            <Outlet /> {/* Aquí se renderiza Home, Cases, etc. */}
+        </main>
+        
         <Footer/>
     </React.Fragment>
 )
